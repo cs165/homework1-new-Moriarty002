@@ -1,3 +1,69 @@
 /**
  TODO(you): Add CSS for the list that you create yourself!
 */
+body{
+    margin: 0;
+    background-image: url("../images/768878.png");
+    background-position-x: left;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div.head p
+{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+}
+div.main
+{
+    background: rgba(255,255,255,0.6);
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.contain
+{
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    margin: 10px auto 40px auto;
+}
+div.contain .picture
+{
+    width: 45%;
+    margin: auto 10px auto 10px;
+}
+div.contain .picture img
+{
+    width: 100%;
+}
+div.contain .description
+{
+    width: 50%;
+    margin-left: 10px;
+}
+div.contain .description p.tittle
+{
+    color: black;
+    font-size: 26px;
+    font-weight: bolder;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0px auto 0px auto;
+}
+div.contain .description p
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+div.contain .description p.special
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+
