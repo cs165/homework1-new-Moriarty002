@@ -10,18 +10,27 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-div.head p
+div.head
+{
+    margin-top: 40px;
+    width: 100%;
+}
+/*div.head p
 {
     color: white;
     font-size: 50px;
     text-align: center;
     margin-top: 5%;
+}*/
+div.head img
+{
+    align-self: center;
 }
 div.main
 {
     background: rgba(255,255,255,0.6);
     width: 90%;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -30,7 +39,7 @@ div.contain
     display: inline-flex;
     flex-direction: row;
     position: relative;
-    margin: 10px auto 40px auto;
+    margin: 10px 20px 40px 20px;
 }
 div.contain .picture
 {
